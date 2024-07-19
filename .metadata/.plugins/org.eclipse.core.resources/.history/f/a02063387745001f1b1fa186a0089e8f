@@ -1,0 +1,3 @@
+spring.application.name=bootcamp
+server.port=8080
+spring.thymeleaf.cache=true

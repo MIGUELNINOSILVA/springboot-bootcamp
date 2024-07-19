@@ -1,0 +1,22 @@
+package com.bootcamp.core.controllers;
+
+import java.util.ArrayList;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/home")
+public class BasicController {
+
+	public List<PostModel> getPosts(){
+		ArrayList<PostModel> post = new ArrayList<>();
+	    return 
+	}
+	
+	@GetMapping(path ={"/post", "/"})
+	public String saludar() {
+		return "index";
+	}
+}

@@ -1,0 +1,27 @@
+package com.bootcamp.core.controllers;
+
+import java.sql.Date;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.bootcamp.core.model.PostModel;
+
+@Controller
+@RequestMapping("/home")
+public class BasicController {
+
+	public List<PostModel> getPosts(){
+		ArrayList<PostModel> post = new ArrayList<>();
+		post.add(new PostModel(1,"En un mundo cada vez más digital, el desarrollo web se ha convertido en una habilidad esencial para cualquier persona interesada en crear sitios web y aplicaciones online.", "http://localhost:8080/img/desarrrolloweb.jpeg", new Date(0), "Desarrollo web");
+	    return post;
+	}
+	
+	@GetMapping(path ={"/post", "/"})
+	public String saludar() {
+		return "index";
+	}
+}

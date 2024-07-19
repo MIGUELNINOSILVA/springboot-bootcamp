@@ -1,0 +1,5 @@
+package com.bootcamp.core.configuration;
+
+public class Page {
+	public static HOME = "HOME;
+}

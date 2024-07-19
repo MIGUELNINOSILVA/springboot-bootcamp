@@ -1,0 +1,12 @@
+package com.bootcamp.core.model;
+
+import java.sql.Date;
+
+public class PostModel {
+	private int id;
+	private String descripcion;
+	private String uriImg;
+	private Date fecha;
+	private String titulo;
+	
+}
