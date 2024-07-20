@@ -6,4 +6,5 @@ import com.restapi.core.models.Movie;
 
 public interface MovieRepository extends JpaRepository<Movie, Long>{
 
+	
 }
