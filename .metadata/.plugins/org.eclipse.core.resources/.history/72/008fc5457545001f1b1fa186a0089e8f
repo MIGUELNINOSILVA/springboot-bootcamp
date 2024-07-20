@@ -1,8 +1,0 @@
-package com.bootcamp.core.controllers;
-
-import org.springframework.stereotype.Controller;
-
-@Controller
-public class BasicController {
-
-}
