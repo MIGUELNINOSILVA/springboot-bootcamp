@@ -1,2 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="com.bootcamp.core.model.PostModel"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
+    <fullyQualifiedTypeName name="ch.qos.logback.classic.Logger"/>
+    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="com.usobeans.core.services.BluePrinter"/>
+    <fullyQualifiedTypeName name="com.usobeans.core.services.impl.EnglishBluePrinter"/>
+    <fullyQualifiedTypeName name="com.usobeans.core.services.impl.EnglishGreenPrinter"/>
+    <fullyQualifiedTypeName name="com.usobeans.core.services.GreenPrinter"/>
+    <fullyQualifiedTypeName name="com.usobeans.core.services.RedPrinter"/>
+    <fullyQualifiedTypeName name="com.usobeans.core.services.impl.EnglishRedPrinter"/>
+    <fullyQualifiedTypeName name="com.usobeans.core.services.ColourPrinter"/>
+    <fullyQualifiedTypeName name="com.usobeans.core.services.impl.ColourPrinterImpl"/>
+    <fullyQualifiedTypeName name="com.usobeans.core.services.impl.SpanishBluePrinter"/>
+</qualifiedTypeNameHistroy>

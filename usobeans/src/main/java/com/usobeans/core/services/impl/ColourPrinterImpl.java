@@ -1,10 +1,13 @@
 package com.usobeans.core.services.impl;
 
+import org.springframework.stereotype.Component;
+
 import com.usobeans.core.services.BluePrinter;
 import com.usobeans.core.services.ColourPrinter;
 import com.usobeans.core.services.GreenPrinter;
 import com.usobeans.core.services.RedPrinter;
 
+@Component
 public class ColourPrinterImpl implements ColourPrinter{
 	
 	private RedPrinter redPrinter;
