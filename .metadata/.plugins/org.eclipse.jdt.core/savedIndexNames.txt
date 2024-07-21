@@ -32,7 +32,6 @@ INDEX VERSION 1.134+/home/miguel/Documentos/springboot/.metadata/.plugins/org.ec
 2569835306.index
 2452049064.index
 3333389790.index
-2477705445.index
 1636197368.index
 3685686177.index
 4090816433.index
