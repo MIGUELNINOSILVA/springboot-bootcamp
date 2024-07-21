@@ -9,8 +9,10 @@ public class UsoAnotaciones {
 
 		// Pedir un bean
 		Empleados Miguel = contexto.getBean("ComercialExperimentado", Empleados.class);
+		Empleados Lucia = contexto.getBean("ComercialExperimentado", Empleados.class);
 
-		System.out.println(Miguel.getInformes());
+		System.out.println(Miguel);
+		System.out.println(Lucia);
 		contexto.close();
 	}
 }
