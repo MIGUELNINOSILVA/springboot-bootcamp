@@ -5,18 +5,6 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
 						http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd
 						">
-
-	<bean id="miInforme" class="com.cursospring.cursospring.Informe">
-
-	</bean>
-
-	<bean id="miEmpleado"
-		class="com.cursospring.cursospring.DirectorEmpleado" init-method="init" destroy-method="destroy">
-		<constructor-arg ref="miInforme" />
-	</bean> <!--
-<bean id="miEmpleado" class="com.cursospring.cursospring.JefeEmpleado">
-    <property name="informeNuevo" ref="miInforme"/>
-</bean>
--->
-
+					<context:component-scan base-package="com.cursospring.cursospring.anotaciones">
+					</context:component-scan>
 </beans>
