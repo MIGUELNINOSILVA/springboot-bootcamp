@@ -7,7 +7,7 @@ public class TestConnection {
 
 	public static void main(String[] args) {
 	
-		String jdbcUrl = "jdbc:mysql://localhost:3306/pruebashibernate";
+		String jdbcUrl = "jdbc:mysql://localhost:3306/gestionPedidosCRUD";
 		
 		String user = "root";
 		
