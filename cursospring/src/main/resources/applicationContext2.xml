@@ -11,7 +11,7 @@
 	</bean>
 
 	<bean id="miEmpleado"
-		class="com.cursospring.cursospring.SecretarioEmpleado" scope="prototype">
+		class="com.cursospring.cursospring.DirectorEmpleado" scope="prototype">
 		<constructor-arg ref="miInforme" />
 		<property name="email" value="secretaria@miguel.com" />
 		<property name="nombreEmpresa" value="Mi Empresa" />

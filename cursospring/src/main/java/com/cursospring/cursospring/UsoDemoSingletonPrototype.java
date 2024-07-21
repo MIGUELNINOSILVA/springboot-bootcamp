@@ -6,13 +6,13 @@ public class UsoDemoSingletonPrototype {
 
 	public static void main(String[] args) {
 		// Crear un contexto
-		ClassPathXmlApplicationContext contexto = new ClassPathXmlApplicationContext("applicationContext2.xml");
+		ClassPathXmlApplicationContext contexto = new ClassPathXmlApplicationContext("applicationContext3.xml");
 		
 		//Petición de Beans al contenedor Spring
-		SecretarioEmpleado Juan = contexto.getBean("miEmpleado", SecretarioEmpleado.class);
-		SecretarioEmpleado Maria = contexto.getBean("miEmpleado", SecretarioEmpleado.class);
+		DirectorEmpleado Maria = contexto.getBean("miEmpleado", DirectorEmpleado.class);
 		
-		System.out.println(Maria);
-		System.out.println(Juan);
+		System.out.println(Maria.getInforme());
+		
+		contexto.close();
 	}
 }
