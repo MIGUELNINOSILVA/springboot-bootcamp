@@ -22,6 +22,7 @@ public class Job {
 	private String maxSalary;
 	private String location;
 
+	@ManyToOne
 	private Company company;
 	
 	public Company getCompany() {

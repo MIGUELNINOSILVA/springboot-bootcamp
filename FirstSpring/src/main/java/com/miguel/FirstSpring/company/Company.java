@@ -2,6 +2,7 @@ package com.miguel.FirstSpring.company;
 
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.miguel.FirstSpring.job.Job;
 
 import jakarta.persistence.Entity;
@@ -20,6 +21,7 @@ public class Company {
 	private String name;
 	private String description;
 	
+	@JsonIgnore
 	@OneToMany(mappedBy = "company")
 	private List<Job> jobs;
 	
